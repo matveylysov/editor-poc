@@ -41,7 +41,15 @@
   <script src="https://cdn.jsdelivr.net/npm/@editorjs/header@latest"></script>
   <script src="https://cdn.jsdelivr.net/npm/@editorjs/list@latest"></script>
   <script src="https://cdn.jsdelivr.net/npm/@editorjs/quote@latest"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@editorjs/embed@latest"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@editorjs/table@latest"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@editorjs/code@latest"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@editorjs/link@latest"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@editorjs/marker@latest"></script>
   <script src="https://cdn.jsdelivr.net/npm/editorjs-drag-drop@latest"></script>
+  
+
+  
 
   <script>
     // Mock data function simulating an API call
@@ -214,6 +222,11 @@
             captionPlaceholder: 'Quote’s author',
           },
         },
+		embed: Embed,
+        table: Table,
+        code: CodeTool,
+        linkTool: LinkTool,
+        marker: Marker,
         loadData: LoadData
       },
       autofocus: true,
